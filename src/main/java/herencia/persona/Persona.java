@@ -47,6 +47,10 @@ public class Persona {
 		this.edad = edad;
 	}
 	
+	public String saludar() {
+		return "hola que tal, ";
+	}
+	
 	
 	
 }

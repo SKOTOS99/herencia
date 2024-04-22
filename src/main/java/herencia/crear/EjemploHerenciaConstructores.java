@@ -44,10 +44,14 @@ public class EjemploHerenciaConstructores {
 		if(persona instanceof Profesor) {
 			st.append("Asignatura: ").append( ((Profesor) persona).getAsignatura()).append("\n");
 		}
+		System.out.println(persona.saludar());
 		st.append("\n")
+		
 		.append("****************");		
 		System.out.println(st.toString());
 	}
+	
+	
 	
 
 }

@@ -56,7 +56,11 @@ public class Alumno extends Persona{
 		this.español = español;
 	}
 	
-	
+	@Override
+	public String saludar() {
+		String saludar = super.saludar();
+		return saludar + " soy alumno "+ getNombre();
+	}
 	
 
 }

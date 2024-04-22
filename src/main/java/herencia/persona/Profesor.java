@@ -25,5 +25,11 @@ public class Profesor extends Persona{
 		super(nombre, apellido);
 		this.asignatura = asignatura;
 	}
+	
+	@Override
+	public String saludar() {
+		String saludar = super.saludar();
+		return saludar + " soy profesor " +getNombre();
+	}
 
 }
