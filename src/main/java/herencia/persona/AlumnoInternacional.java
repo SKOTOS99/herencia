@@ -19,6 +19,10 @@ public class AlumnoInternacional extends Alumno{
 		this.idioma = idioma;
 	}
 	
+	public AlumnoInternacional() {
+		System.out.println("iniciando alumno extrangero...");
+	}
+	
 	
 
 }

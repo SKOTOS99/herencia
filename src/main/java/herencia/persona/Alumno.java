@@ -33,6 +33,9 @@ public class Alumno extends Persona{
 		this.español = español;
 	}
 	
+	public Alumno() {
+		System.out.println("init alumno constructor ...");
+	}
 	
 
 }

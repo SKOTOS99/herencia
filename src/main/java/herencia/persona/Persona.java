@@ -33,6 +33,10 @@ public class Persona {
 	}
 	
 	
+	public Persona() {
+		System.out.println("init constructor persona...");
+	}
+	
 	
 	
 }

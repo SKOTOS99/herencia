@@ -7,10 +7,8 @@ import herencia.persona.Profesor;
 public class EjemploHerencia {
 	
 	public static void main(String[] args) {
+		System.out.println("**********************************");
 		Alumno alumno = new Alumno();
-		Profesor profesor = new Profesor();
-		AlumnoInternacional extra = new AlumnoInternacional();
-		
 		alumno.setNombre("Elias");
 		alumno.setApellido("Gomez");
 		alumno.setEdad(15);
@@ -19,13 +17,19 @@ public class EjemploHerencia {
 		alumno.setEspañol(7.89);
 		alumno.setMatematicas(9.0);
 		alumno.setMatricula("123dego");
-		
+		System.out.println("**********************************");
+
+		Profesor profesor = new Profesor();
 		profesor.setApellido("mendez");
 		profesor.setNombre("plutarco");
 		profesor.setAsignatura("Matematicas");
-		
+		System.out.println("**********************************");
+
+		AlumnoInternacional extra = new AlumnoInternacional();
 		extra.setNombre("amir");
 		extra.setPais("Belgica");
+		System.out.println("**********************************");
+
 		System.out.println(alumno.getNombre());
 		System.out.println(profesor.getNombre());
 		System.out.println(extra.getPais());

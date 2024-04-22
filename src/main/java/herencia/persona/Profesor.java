@@ -11,5 +11,10 @@ public class Profesor extends Persona{
 	public void setAsignatura(String asignatura) {
 		this.asignatura = asignatura;
 	}
+	
+	public Profesor() 
+	{
+		System.out.println("iniciando profesor constructor...");
+	}
 
 }
