@@ -37,5 +37,26 @@ public class Alumno extends Persona{
 		System.out.println("init alumno constructor ...");
 	}
 	
+	public Alumno(String nombre, String apellido) {
+		super(nombre, apellido);//con super instaciamos el constructor del padre
+	}
+	
+	public Alumno(String nombre, String apellido, int edad) {
+		super(nombre, apellido, edad);//con super instaciamos el constructor del padre
+	}
+	
+	public Alumno(String nombre, String apellido, int edad, String escuela) {
+		super(nombre, apellido, edad);//con super instaciamos el constructor del padre
+		this.escuela = escuela;
+	}
+	public Alumno(String nombre, String apellido, int edad,String escuela, String matricula, Double matematicas, Double español) {
+		this(nombre, apellido, edad,escuela);
+		this.matricula = matricula;
+		this.matematicas = matematicas;
+		this.español = español;
+	}
+	
+	
+	
 
 }
