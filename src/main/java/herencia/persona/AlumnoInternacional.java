@@ -37,6 +37,11 @@ public class AlumnoInternacional extends Alumno{
 		String saludar = super.saludar();
 		return saludar + " soy alumno de "+ getPais();
 	}
+	@Override
+	public String toString() {
+		return super.toString()+"\npais= " + pais + "\nidioma= " + idioma + "\n";
+	}
+	
 	
 	
 

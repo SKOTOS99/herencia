@@ -61,6 +61,11 @@ public class Alumno extends Persona{
 		String saludar = super.saludar();
 		return saludar + " soy alumno "+ getNombre();
 	}
+	@Override
+	public String toString() {
+		return super.toString() + "\nescuela= " + escuela + "\nmatricula=" + matricula + " \nmatematicas=" + matematicas + " \nespañol="
+				+ español + this.saludar() + "\n";
+	}
 	
 
 }

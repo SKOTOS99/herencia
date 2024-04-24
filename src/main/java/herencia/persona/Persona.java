@@ -50,6 +50,12 @@ public class Persona {
 	public String saludar() {
 		return "hola que tal, ";
 	}
+	@Override
+	public String toString() {
+		return "\nnombre= " + nombre + "\napellido= " + apellido + " \nedad= " + edad + ", \nemail= " + email + this.saludar() + "\n";
+	}
+	
+	
 	
 	
 	
